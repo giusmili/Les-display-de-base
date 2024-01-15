@@ -31,3 +31,7 @@ div.gallery-primary ul li:nth-of-type(6){
 div.gallery-primary ul li:last-child{
     width: calc(100% / 1  - 1rem);
 }
+footer *{
+    text-align: center;
+    line-height: 7.5rem;
+}
