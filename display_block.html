@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Display css : block, inline-block, flex">
     <title>Les display</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
 
-<body>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="./css/css-flex.css">
+  </head>
+
+  <body>
     <header>
-        <h1>
-            Les display : display block
-        </h1>
+      <h1><span aria-hidden="true">🚀</span> Les display : display grid</h1>
     </header>
     <main>
+      <div class="gallery-primary" role="group" aria-labelledby="gallery">
+        <ul id="gallery">
+          <li><img src="./asset/newyork2.jpg" alt="ny" loading="lazy"></li>
+          <!-- 
+                -->
+          <li>
+            <img src="./asset/sanfran.jpg" alt="sanfran" loading="lazy">
+          </li>
+          <!-- 
+                -->
+          <li><img src="./asset/pisa.jpg" alt="Pise" loading="lazy"></li>
+          <!-- 
+                -->
+          <li><img src="./asset/paris.jpg" alt="Paris" loading="lazy"></li>
+          <!--
+                
+                
+                
+            -->
+          <li>
+            <img src="./asset/newyork2.jpg" alt="ny" loading="lazy">
+          </li>
+          <!--
+             -->
+          <li>
+            <img src="./asset/sanfran.jpg" alt="sanfran" loading="lazy">
+          </li>
+          <!--
 
-        <!-- Contenu de la page -->
-      
-
+                -->
+          <li>
+            <img
+              src="./asset/cinqueterre.jpg"
+              alt="cinqueterre"
+              loading="lazy"
+            >
+          </li>
+        </ul>
+      </div>
     </main>
     <footer>
-        <p>
-            &copy; - MIT - <time datetime="2023-03-07">2024</time>
-        </p>
+      <p>&copy; - MIT - <time datetime="2023-03-07">2024</time></p>
     </footer>
-</body>
-
+  </body>
 </html>
