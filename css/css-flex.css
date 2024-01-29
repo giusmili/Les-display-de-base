@@ -1,0 +1,45 @@
+@import url("./reset.css");
+/* ==============================
+   SECTION 2: THEME CSS
+   ============================== */
+
+header * {
+  text-align: center;
+  line-height: 7.5rem;
+}
+
+div.gallery-primary {
+  /* contenteur */
+  max-width: 120rem;
+  margin: 5rem auto;
+  background-color: #fff;
+}
+div.gallery-primary ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+div.gallery-primary ul li {
+  flex-grow: 1; /* autoriser les éléments plus grand */
+  flex-shrink: 0; /* autoriser les éléments plus petit */
+  flex-basis: calc(100% / 5);
+}
+div.gallery-primary ul li:nth-of-type(5) {
+  flex-basis: calc(100% / 3);
+}
+
+div.gallery-primary ul li:nth-of-type(6) {
+  flex-basis: calc(100% / 3);
+}
+div.gallery-primary ul li:nth-of-type(7) {
+  flex-basis: calc(100% / 1);
+}
+
+footer * {
+  text-align: center;
+  line-height: 7.5rem;
+}
