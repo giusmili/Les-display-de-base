@@ -2,3 +2,32 @@
 /* ==============================
    SECTION 2: THEME CSS
    ============================== */
+   header *{
+      text-align: center;
+      line-height: 7.5rem;
+  }
+  
+  div.gallery-primary{ /* contenteur */
+      max-width: 120rem;
+      margin: 5rem auto;
+      background-color: #fff;
+  }
+  div.gallery-primary ul{
+  
+  }
+
+/*   div.gallery-primary ul li:nth-of-type(5){
+
+
+  }
+  div.gallery-primary ul li:nth-of-type(6){
+    
+  }
+  div.gallery-primary ul li:nth-of-type(7){
+ 
+  } */
+
+  footer *{
+   text-align: center;
+   line-height: 7.5rem;
+}
